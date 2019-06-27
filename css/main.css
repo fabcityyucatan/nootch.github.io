@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,800,700);
+@import url(http://fonts.googleapis.com/css?family=Rubik+Sans:400,300,800,700);
 @import url("normalize.css");
 @import url("grid.css");
 @import url("modal.css");
@@ -14,7 +14,7 @@
 html,
 body {
 	height: 100%;
-	background: #fff;
+	background: #455161;
 }
 
 html {
@@ -50,11 +50,11 @@ body,
 input,
 select,
 button {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 22px;
 	font-size: 1rem;
 	line-height: 1.36;
-	color: #86888b;
+	color: #ffffff;
 	letter-spacing: -0.035em;
 }
 
@@ -67,7 +67,7 @@ h3,
 h4,
 .h4 {
 	margin: 0;
-	color: #2a2a2a;
+	color: #FFFF00;
 }
 
 h1,
@@ -204,7 +204,7 @@ iframe {
 hr {
 	border: 0;
 	height: 1px;
-	background: #dfe0e1;
+	background: #fff;
 }
 
 a {
@@ -236,13 +236,13 @@ input.text {
 	-webkit-appearance: none;
 	font-size: 1rem;
 	line-height: 1;
-	border: 1px solid #e5e5e5;
+	border: 1px solid #ffffff;
 	width: 220px;
 	padding: 1.14rem .6rem;
 }
 
 select {
-	border: 1px solid #e5e5e5;
+	border: 1px solid #ffffff;
 }
 
 .no-js label {
@@ -262,12 +262,12 @@ select {
 }
 
 input.text:focus {
-	border-color: #dfe0e1;
+	border-color: #fff;
 }
 
 .submit {
 	color: #fff;
-	background: #42A5F5;
+	background: #FFFF;
 	border: 0;
 	-webkit-appearance: none;
 	text-transform: uppercase;
@@ -325,7 +325,7 @@ input.text:focus {
 	bottom: 0;
 	width: 38px;
 	height: 5px;
-	background: #42A5F5;
+	background: #FFFF00;
 	margin: auto;
 }
 
@@ -379,7 +379,7 @@ input.text:focus {
 		height: 90%;
 		height: calc(100% - 0.2em);
 		width: 5px;
-		background: #42A5F5;
+		background: #FFFF00;
 	}
 	
 	.scaled.heading-bordered:before {
@@ -414,7 +414,7 @@ input.text:focus {
 		height: 100%;
 		height: calc(100% - 0.5rem);
 		width: 5px;
-		background: #42A5F5;
+		background: #455161;
 	}
 	
 	.scaled.md-heading-bordered:before {
@@ -446,7 +446,7 @@ input.text:focus {
 		height: 100%;
 		height: calc(100% - 0.5rem);
 		width: 5px;
-		background: #42A5F5;
+		background: #455161;
 	}
 	
 	.scaled.sm-heading-bordered:before {
@@ -493,7 +493,7 @@ input.text:focus {
 	font-size: 14px;
 	letter-spacing: -0.035em;
 	background: #fff;
-	color: #2a2a2a;
+	color: #455161;
 	cursor: pointer;
 	padding: 17px 20px;
 	position: relative;
@@ -502,7 +502,7 @@ input.text:focus {
 }
 
 .btn:hover {
-	color: #42A5F5;
+	color: #455161;
 }
 
 @media ( min-width: 768px ) {
@@ -592,7 +592,7 @@ input.text:focus {
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	width: 60px;
-	background-color: #42A5F5;
+	background-color: #455161;
 }
 
 .btn-append  .submit.appended {
@@ -626,7 +626,7 @@ input.text:focus {
 }
 
 .prepend-hilite .prepended {
-	background-color: #42A5F5;
+	background-color: #455161;
 }
 
 @media ( min-width: 992px ) {
@@ -665,7 +665,7 @@ input.text:focus {
 
 .dropdown-prepend {
 	padding-left: 75px;
-	border-bottom: 1px solid #e5e5e5;
+	border-bottom: 1px solid #ffffff;
 }
 
 
@@ -770,7 +770,7 @@ input.text:focus {
 	font-weight: 700;
 	line-height: 1;	
 	text-transform: uppercase;
-	color: #1b1b1b;
+	color: #FFFF00;
 	position: absolute;
 	top: 50%;
 	margin-top: -.9em;
@@ -810,7 +810,7 @@ input.text:focus {
 
 
 .header .nav .active {
-	color: #42A5F5;
+	color: #FFFF00;
 }
 
 .level {
@@ -875,7 +875,7 @@ input.text:focus {
 	padding: 40px;
 	font-size: 12px;
 	line-height: 1;
-	color: #aeaeae;
+	color: #FFFF00;
 	letter-spacing: 0;
 }
 
@@ -889,7 +889,7 @@ input.text:focus {
 }
 
 .fmenu a {
-	color: #2f2f2f
+	color: #FFFF00
 }
 
 .footer a {
@@ -961,7 +961,7 @@ input.text:focus {
 	content: "";
 	width: 100%;
 	height: 100%;
-	background: #dfe0e0;
+	background: #FFFF00;
 }
 
 .hint-arrow {
@@ -1031,8 +1031,8 @@ input.text:focus {
 /* home hero specific pages */
 
 .hero-home {
-	background-image: url("../img/bg-default.jpg");
-	background-color: #523129;
+	background-image: url("../img/frame-1.jpg");
+	background-color: #455161;
 	min-height: 400px;
 }
 
@@ -1049,7 +1049,7 @@ input.text:focus {
 
 @media ( min-width: 1200px ) {
 	.hero-home {
-		background-color: #5c6164;
+		background-color: #455161;
 		background-image: url("../img/frame-1.jpg");
 	}
 
@@ -1374,7 +1374,7 @@ input.text:focus {
 }
 
 .show-section:hover {
-	color: #42A5F5;
+	color: #FFFF00;
 }
 
 .is-section-archived {
@@ -1418,7 +1418,7 @@ input.text:focus {
 	font-size: 14px;
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #42A5F5;
+	color: #FFFF00;
 }
 .post a.more:hover {
 	text-decoration: underline;
@@ -1459,7 +1459,7 @@ input.text:focus {
 .post h3 a:hover,
 .post a:hover h2,
 .post a:hover h3 {
-	color: #42A5F5;
+	color: #FFFF00;
 }
 
 .post time,
@@ -1506,7 +1506,7 @@ input.text:focus {
 }
 
 .post-intro {
-	color: #86888b;
+	color: #FFFF00;
 	font-weight: 400;
 }
 
@@ -1542,7 +1542,7 @@ input.text:focus {
 	content: "";
 	position: absolute;
 	top: 0;
-	background: #42A5F5;
+	background: #FFFF00;
 }
 
 @media ( max-width: 767px ) {
@@ -1620,7 +1620,7 @@ input.text:focus {
 
 .small-list a {
 	text-decoration: underline;
-	color: #86888b;
+	color: #FFFF00;
 }
 
 /* embed modal share well */
@@ -1628,7 +1628,7 @@ input.text:focus {
 	min-height: 20px;
 	padding: 19px;
 	margin-bottom: 20px;
-	background-color:#f5f5f5;
+	background-color:#fff;
 	border:1px solid #e3e3e3;
 	border-radius: 4px;
 	-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05); box-shadow:inset 0 1px 1px rgba(0,0,0,.05)
@@ -1654,7 +1654,7 @@ input.text:focus {
 /* label given sr-only class on modernizr detection of placeholder */
 label {
 	display: block;
-	color: #cecece;
+	color: #fff;
 	font-size: 22px;
 	line-height: 2;
 }
@@ -1788,7 +1788,7 @@ label {
 .dropdown-menu > li:focus {
   text-decoration: none;
   color: #262626;
-  background-color: #f5f5f5;
+  background-color: #fff;
 }
 
 .open > .dropdown-menu {
@@ -2268,7 +2268,7 @@ label {
 }
 
 .color-dark {
-	color: #2a2a2a;
+	color: #fff;
 }
 
 .size-default {
@@ -2346,7 +2346,7 @@ ul.smallest {
 }
 
 a.underline:hover {
-	color: #42A5F5;
+	color: #FFFF00;
 }
 
 @media ( min-width: 768px ) {
@@ -2672,7 +2672,7 @@ ol.tos li {
 	left: 0;
 	width: 4px;
 	height: 4px;
-	background: #42A5F5;
+	background: #FFFF00;
 }
 
 /* bottom margins on list-items */
@@ -2699,9 +2699,9 @@ ol.tos li {
 
 	list-style: none;
 
-	color: #2a2a2a;
+	color: #FFFF00;
 
-	border-bottom: 1px solid #f6f6f6;
+	border-bottom: 1px solid #fff;
 
 }
 
@@ -2726,7 +2726,7 @@ ol.tos li {
 .inline-tabs .active {
 	color: #42A5F5;
 
-	border-color: #42A5F5;
+	border-color: #FFFF00;
 }
 
 .inline-tabs a {

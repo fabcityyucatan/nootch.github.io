@@ -25,9 +25,9 @@
 
 	height: auto;
 
-	border-bottom: 1px solid #dfe0e1;
+	border-bottom: 1px solid #fff;
 
-	background: #fff;
+	background: #455161;
 	color: inherit;
 
 }
@@ -67,7 +67,7 @@
 	padding-top: 30px;
 	padding-bottom: 185px;
 
-	background: url("../img/hero.jpg") 140px 100% no-repeat;
+	background: url("../img/hero.png") 140px 100% no-repeat;
 	background-size: 240px;
 }
 
